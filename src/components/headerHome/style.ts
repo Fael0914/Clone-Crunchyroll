@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
   },
 
   iconsContainer: {
-    marginTop: 50,
+    marginTop: 60,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",

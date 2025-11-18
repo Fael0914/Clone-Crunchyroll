@@ -1,8 +1,9 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import { Home } from '../pages/Home';
 import { Login } from "../pages/Login";
+import { StackList } from '../@types/navigation';
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<StackList>();
 
 export const StackRouters = () => {
 
