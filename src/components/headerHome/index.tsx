@@ -10,8 +10,8 @@ export const HeaderHome = () => {
       <View style={styles.iconsContainer}>
         <Image source={logo} style={styles.logo}/>
         <View style={styles.icons}>
-          <Feather name="search" size={24} color="white" />
           <Feather name="cast" size={24} color="white" />
+          <Feather name="search" size={24} color="white" />
         </View>
       </View>
     </View>
